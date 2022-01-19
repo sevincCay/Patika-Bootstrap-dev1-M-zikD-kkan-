@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color:#E9ECEF ;
+}
+.hero{
+    background: url("./image/monkey-3507317_1920.jpg")center center no-repeat ;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+.hero2{
+    background: url("./image/pexels-snapwire-6966.jpg")center center no-repeat ;
+    background-size: contain;
+    
+}
+.hero-content{
+    position: absolute;
+    color: #fff;
+    top: 250px;
+    right: 50px;
+}
+.nav-link{
+    color: white !important;
+}
+footer{
+
+width: 100%;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
